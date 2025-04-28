@@ -1,0 +1,57 @@
+[
+    {
+        "set": "Thinking and Creativity"
+    },
+    {
+        "front": "Prototypes",
+        "back": "A mental image or best example of a category. For example, when you think of a bird, you might think of a robin or a sparrow, which are both prototypes of the category 'bird'."
+    },
+    {
+        "front": "Algorithm",
+        "back": "A rule or procedure that guarantees a solution to a problem. For example, a recipe is an algorithm for cooking a dish."
+    },
+    {
+        "front": "Heuristic",
+        "back": "A rule of thumb that often helps us find the solution to a problem. For example, if you are trying to find a restaurant, you might use the heuristic of looking for a place that is busy, as this might indicate good food."
+    },
+    {
+        "front": "Availability heuristic",
+        "back": "A mental shortcut that relies on immediate examples that come to mind. For example, if you hear about a plane crash, you might overestimate the danger of flying because that example is readily available in your memory."
+    },
+    {
+        "front": "Representativeness heuristic",
+        "back": "A mental shortcut that involves judging the likelihood of things in terms of how well they seem to represent, or match, particular prototypes. For example, if you see someone who is tall and athletic, you might assume they are a basketball player, even if they are actually a swimmer."
+    },
+    {
+        "front": "Gambler's fallacy",
+        "back": "When people believe that the odds of a chance event increase if the event hasn't occurred recently. For example, if a coin has landed on heads several times in a row, you might think that tails is 'due' to happen next."
+    },
+    {
+        "front": "Sunk-cost fallacy",
+        "back": "When people continue a behavior or endeavor as a result of previously invested resources (time, money, or effort). For example, if you have already spent a lot of money on a car that is constantly breaking down, you might feel compelled to keep spending money on repairs instead of buying a new car."
+    },
+    {
+        "front": "Mental set",
+        "back": "The tendency to approach a problem in a particular way, often a way that has been successful in the past. For example, if you have always solved math problems using a certain method, you might be reluctant to try a new method even if it would be more efficient."
+    },
+    {
+        "front": "Functional fixedness",
+        "back": "The inability to see a new use for an object. For example, if you have a hammer, you might only think of it as a tool for driving nails, rather than considering other uses like breaking glass or opening a bottle."
+    },
+    {
+        "front": "Framing",
+        "back": "The idea that the same information can be presented in different ways, leading to different interpretations. For example, if a surgery has a 90% success rate, it might be framed as '90% of patients survive' or '10% of patients die,' which could lead to different emotional reactions."
+    },
+    {
+        "front": "Creativity",
+        "back": "The ability to produce novel and valuable ideas. For example, a creative person might come up with a new way to solve a problem or create a unique piece of art."
+    },
+    {
+        "front": "Convergent thinking",
+        "back": "Thinking that narrows the available problem solutions to determine the single best solution. For example, if you are trying to solve a math problem, you might use convergent thinking to find the one correct answer."
+    },
+    {
+        "front": "Divergent thinking",
+        "back": "Thinking that searches for multiple possible answers to a question. For example, if you are brainstorming ideas for a project, you might use divergent thinking to come up with many different possibilities."
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "set": "Perception"
+    },
+    {
+        "front": "Placebo effect",
+        "back": "A beneficial effect produced by a placebo drug or treatment. In reality, the drug has no therapeutic effect, but the patient believes it does."
+    },
+    {
+        "front": "Just-noticeable difference",
+        "back": "A principle that states that the smallest change in a stimulus can be detected 50% of the time. This is also known as the difference threshold."
+    },
+    {
+        "front": "Weber's law",
+        "back": "A law that states that humans don't perceive absolute differences in stimuli, but rather relative differences. For example, if you have a 1kg weight and add 1g to it, you will notice the difference. But if you have a 100kg weight and add 1g to it, you won't notice the difference."
+    },
+    {
+        "front": "Top-down processing",
+        "back" : "A processing method that involves using prior experiences and knowledge to perceive things."
+    },
+    {
+        "front": "Schemata",
+        "back" : "Plural form of schema."
+    },
+    {
+        "front": "Schema",
+        "back" : "A cognitive frameowrk or structure that helps individuals organize and interpret information. For example, we expect a waiter to be warm and welcoming."
+    },
+    {
+        "front": "Perceptual set",
+        "back" : "A predisposition or bias to notice some aspects of the available sensory data and ignore others. For example, if you expect a class to be boring, you are more likely to be uninterested in that class."
+    },
+    {
+        "front": "Bottom-up processing",
+        "back" : "A processing method that involves using sensory receptors for the brain to integrate and process."
+    },
+    {
+        "front": "Figure-ground relationship",
+        "back" : "The organization of the visual field into objects (the figures) that stand out from their surroundings (the ground). For example, when you look at a picture, you can see the main object and the background."
+    },
+    {
+        "front": "Gestalt psychology",
+        "back" : "A psychological approach that points out that humans normally preceive images as groups, not as isolated elements. For example, people still perceive a dotted circle as a circle, not as a series of dots."
+    },
+    {
+        "front": "Proximity",
+        "back" : "A gestalt principle of perception that states that objects that are close together are perceived as a group. For example, if you see a group of dots that are close together, you will perceive them as a group."
+    },
+    {
+        "front": "Similarity",
+        "back" : "A gestalt principle of perception that states that objects that are similar in appearance are perceived as a group. For example, if you see a group of dots that are the same color, you will perceive them as a group."
+    },
+    {
+        "front": "Contunuity",
+        "back" : "A gestalt principle of perception that states that objects that are arranged in a continuous line or curve are perceived as a group. For example, if you see a group of dots that are arranged in a line, you will perceive them as a group."
+    },
+    {
+        "front": "Closure",
+        "back" : "A gestalt principle of perception that states that objects that make up a recognizable image are perceived as a group. For example, if you see a group of dots that form a circle, you will perceive them as a circle. This type of perception is influenced by top-down processing."
+    },
+    {
+        "front": "Visual cliff",
+        "back" : "An experiment that tests depth perception in infants. The experiment involves a glass surface that creates the illusion of a cliff. Infants are placed on the glass surface and their reactions are observed."
+    },
+    {
+        "front": "Monocular depth cues",
+        "back" : "Depth cues that do not depend on having two eyes. These cues include linear perspective, relative size, interposition, texture gradient."
+    },
+    {
+        "front": "Binocular depth cues",
+        "back" : "Depth cues that depend on having two eyes. These cues include retinal disparity and convergence."
+    },
+    {
+        "front": "Linear perspective",
+        "back" : "A type of monocular depth cue that involves the perception of depth based on the convergence of parallel lines. For example, when you look at a road that goes into the distance, it appears to get narrower as it goes further away."
+    },
+    {
+        "front": "Relative size cue",
+        "back" : "A type of monecular depth cue that involves the perception of depth based on the size of objects. For example, if you see two objects that are the same size, but one is closer to you, it will appear larger than the other."
+    },
+    {
+        "front": "Interposition cue",
+        "back" : "A type of monecular depth cue that involves the perception of depth based on the overlap of objects. For example, if you see two objects that are overlapping, the one that is in front will appear closer to you."
+    },
+    {
+        "front": "Texture gradient",
+        "back" : "A type of monecular depth cue that involves the perception of depth based on the texture of objects. For example, if you see a field of grass, the grass that is closer to you will appear more detailed than the grass that is further away."
+    },
+    {
+        "front": "Retinal disparity (also known as binocular disparity)",
+        "back" : "A type of binocular depth cue that involves the perception of depth based on the difference between the images that are projected onto each eye. For example, if you see a pencil with one eye, it will appear to be in a different position than if you see it with the other eye."
+    },
+    {
+        "front": "Convergence",
+        "back" : "A type of binocular depth cue that involves the perception of depth based on the angle of convergence of the eyes. For example, if you see a pencil with one eye, it will appear to be in a different position than if you see it with the other eye. The closer the object is, the more your eyes will converge."
+    }
+]

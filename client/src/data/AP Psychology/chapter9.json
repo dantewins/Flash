@@ -1,0 +1,209 @@
+[
+    {
+        "set": "Memory"
+    },
+    {
+        "front": "Three box/information processing model",
+        "back": "Also called the multi-store model, this model describes memory as a process that involves three stages: sensory memory, short-term memory, and long-term memory. Each stage has its own characteristics and functions."
+    },
+    {
+        "front": "Levels of processing model",
+        "back": "A model that suggests that the depth of processing affects how well information is stored in memory. Shallow processing (e.g., focusing on physical features) leads to less retention than deep processing (e.g., focusing on meaning)."
+    },
+    {
+        "front": "Sensory memory",
+        "back": "A holding tank for incoming sensory information. It has a very brief duration (milliseconds) and can hold a large amount of information. Sensory memory includes iconic memory (visual) and echoic memory (auditory)."
+    },
+    {
+        "front": "Iconic memory",
+        "back": "Visual sensory memory that lasts for a fraction of a second. It allows us to retain a brief image of what we see before it fades away."
+    },
+    {
+        "front": "Echoic memory",
+        "back": "Auditory sensory memory that lasts for 3 to 4 seconds. It allows us to retain a brief sound of what we hear before it fades away."
+    },
+    {
+        "front": "Short-term memory",
+        "back": "A small storage system that holds information for a limited time (about 20 seconds) and has a limited capacity (about 7±2 items). It is also known as working memory, which is used for active processing of information."
+    },
+    {
+        "front": "Selective attention",
+        "back": "A cognitive process that involves focusing on a specific stimulus while ignoring others. It allows us to filter out irrelevant information and concentrate on what is important."
+    },
+    {
+        "front": "Cocktail party effect",
+        "back": "Human's remarkable ability to focus on a single conversation in a noisy environment. For example, you can hear your name mentioned in a crowded room even if you are not actively listening to the conversation."
+    },
+    {
+        "front": "Inattentional blindness",
+        "back": "When people fail to see visible objects when their attention is directed elsewhere. For example, if you are focused on a task, you might not notice someone walking by."
+    },
+    {
+        "front": "Change blindness",
+        "back": "Someimes, people fail to notice changes in their environment. For example, if a person is shown a picture and then the picture is changed slightly, they might not notice the difference."
+    },
+    {
+        "front": "Working memory",
+        "back": "Manipulating and processing information in short-term memory. It is a limited capacity system that allows us to hold and manipulate information for a short period of time. It consists of three components: the central executive loop, the visuospatial sketchpad, and the auditory loop."
+    },
+    {
+        "front": "Central executive",
+        "back": "A component of working memory that directs attention and coordinates the activities of the other two components (the visuospatial sketchpad and the auditory loop). It is responsible for integrating information from different sources and managing cognitive tasks."
+    },
+    {
+        "front": "Visuospatial sketchpad",
+        "back": "A component of working memory that deals with visual and spatial information. It allows us to visualize and manipulate images in our mind, such as remembering the layout of a room or the appearance of a face."
+    },
+    {
+        "front": "Auditory loop",
+        "back": "A compoonent of working memory that deals with words or numbers. It allows us to repeat and manipulate auditory information, such as remembering a phone number or a list of words."
+    },
+    {
+        "front": "Maintenance rehearsal",
+        "back": "Repeating information over and over to keep it in short-term memory. For example, if you are trying to remember a phone number, you might repeat it to yourself several times until you can write it down."
+    },
+    {
+        "front": "Elaborative rehearsal",
+        "back": "A type of effortful processing that involves linking new information to existing knowledge in long-term memory. For example, if you are trying to remember a new word, you might relate it to a similar word or concept you already know."
+    },
+    {
+        "front": "Effortful processing",
+        "back": "Processing that involves putting mental effort into learning and retaining information. It requires conscious attention and is often used for complex tasks or new information."
+    },
+    {
+        "front": "Long-term memory",
+        "back": "Permanent storage of information that can last from minutes to a lifetime. It has a virtually unlimited capacity and can store a wide range of information, including facts, experiences, and skills."
+    },
+    {
+        "front": "Storage",
+        "back": "Any type of information that is retained in memory. It can be short-term or long-term, depending on how long the information is held."
+    },
+    {
+        "front": "Episodic memory",
+        "back": "Memories of specific events or experiences in our lives. It includes information about the time, place, and context of the event. For example, remembering your first day of school or a family vacation."
+    },
+    {
+        "front": "Semantic memory",
+        "back": "Memories that are not tied to specific events or experiences. It includes general knowledge and facts about the world, such as knowing that Paris is the capital of France or that water freezes at 0 degrees Celsius."
+    },
+    {
+        "front": "Procedural memory",
+        "back": "Memories of skills and how to perform tasks. It includes information about how to do things, such as riding a bike or playing a musical instrument. Procedural memory is often implicit and does not require conscious effort to recall."
+    },
+    {
+        "front": "Explicit memories",
+        "back": "Also known as declarative memories, these are memories that can be consciously recalled and verbalized. They include episodic and semantic memories."
+    },
+    {
+        "front": "Implicit memories",
+        "back": "Also known as nondeclarative memories, these are memories that cannot be consciously recalled or verbalized. They include procedural memories and conditioned responses."
+    },
+    {
+        "front": "Prospective memory",
+        "back": "Memories for things we need to do in the future. It includes remembering to take medication, attend a meeting, or complete a task. Prospective memory can be triggered by cues in the environment or by internal reminders."
+    },
+    {
+        "front": "Shallowly encoded",
+        "back": "Quickly processed information that is not deeply understood or retained. It often involves focusing on superficial features, such as the appearance of words or sounds, rather than their meaning."
+    },
+    {
+        "front": "Deeply encoded",
+        "back": "Deeply processed information that is well understood and retained. It often involves focusing on the meaning of the information and relating it to existing knowledge."
+    },
+    {
+        "front": "Long-term potentiation",
+        "back": "A process that strengthens the connections between neurons, making it easier for them to communicate. It is believed to be a biological basis for learning and memory."
+    },
+    {
+        "front": "Encoding",
+        "back": "The process by which information is transformed into a form that can be stored in memory. It involves converting sensory input into a neural code that can be processed by the brain."
+    },
+    {
+        "front": "Primary effect",
+        "back": "A phenemonon that predicts that people are more likely to remember the first items in a list. For example, if you are trying to remember a list of words, you are more likely to remember the first few words than the last few."
+    },
+    {
+        "front": "Recency effect",
+        "back": "A phenomenon that predicts that people are more likely to remember the last items in a list. For example, if you are trying to remember a list of words, you are more likely to remember the last few words than the first few."
+    },
+    {
+        "front": "Serial position effect",
+        "back": "Also called the serial position curve. It is the combined effect of the primary and recency effects. The effect predicts that people are more likely to remember items at the beginning and end of a list, but less likely to remember items in the middle."
+    },
+    {
+        "front": "Method of loci",
+        "back": "A method that improves memory by associating information with specific locations or landmarks. For example, if you are trying to remember a list of items, you might visualize placing each item in a different room of your house."
+    },
+    {
+        "front": "Spacing effect",
+        "back": "An effect that explains that information is better retained when it is studied over a longer period of time, rather than crammed into a short period. For example, if you study for an exam over several weeks, you are more likely to remember the material than if you cram the night before."
+    },
+    {
+        "front": "Massed practice",
+        "back": "The opposite of distributed practice. It involves studying information in a short period of time, often leading to cramming. For example, if you study for an exam the night before, you are using massed practice."
+    },
+    {
+        "front": "Chunking",
+        "back": "Splitting items into smaller, more manageable groups to improve memory retention. For example, if you are trying to remember a long string of numbers, you might break it into smaller groups, such as 123-456-7890 instead of 1234567890."
+    },
+    {
+        "front": "Mneomonic devices",
+        "back": "Memory aids that use associations, acronyms, or visual imagery to help remember information. For example, using the acronym HOMES to remember the Great Lakes (Huron, Ontario, Michigan, Erie, Superior)."
+    },
+    {
+        "front": "Anterograde amnesia",
+        "back": "A type of memory loss that affects the ability to form new memories after a traumatic event. For example, if someone has anterograde amnesia, they may not remember anything that happened after the event, but they can still recall memories from before the event."
+    },
+    {
+        "front": "Retrograde amnesia",
+        "back": "A type of memory loss that affects the ability to recall memories from before a traumatic event. For example, if someone has retrograde amnesia, they may not remember anything that happened before the event, but they can still form new memories after the event."
+    },
+    {
+        "front": "Retrieval",
+        "back": "The last stop in any memory model. It is the process of getting information out of memory storage and back into conscious awareness. For example, if you are trying to remember a friend's name, you are using retrieval to access that information from your memory."
+    },
+    {
+        "front": "Recognition",
+        "back": "The process of matching a current event or fact with one already in memory. For example, if you see a familiar face and recognize it as a friend, you are using recognition to access that information from your memory."
+    },
+    {
+        "front": "Recall",
+        "back": "A process that describes the retrieval of a memory with an external cue. For example, if you are trying to remember a friend's name and you see their face, you might recall their name using that external cue."
+    },
+    {
+        "front": "Retriveal cues",
+        "back": "Stimuli that help us retrieve a certain memory. For example, if you are trying to remember a specific event, a smell or sound associated with that event might serve as a retrieval cue."
+    },
+    {
+        "front": "Tip-of-the-tongue phenomenon",
+        "back": "The temporary inability to retrieve a word or name from memory, even though you know it is stored in your memory. For example, if you are trying to remember the name of a movie, you might feel like it is on the tip of your tongue but you can't quite recall it."
+    },
+    {
+        "front": "Context-dependent memory",
+        "back": "Also called flashbulb memories. It is the improved recall of specific information when the context present at encoding and retrieval are the same. For example, if you learn something in a specific location, you are more likely to remember it when you are in that same location again."
+    },
+    {
+        "front": "Mood-congruent memory",
+        "back": "The greater likelihood of recalling an item when our mood matches the mood we were in when the event happened. For example, if you are feeling happy, you are more likely to remember happy memories."
+    },
+    {
+        "front": "State-dependent memory",
+        "back": "The phenomonen of recalling events encoded while in a particular state of consciousness. For example, if you learn something while you are drunk, you are more likely to remember it when you are drunk again."
+    },
+    {
+        "front": "Constructed memory",
+        "back": "A memory that includes false details or recollections of an event. For example, if you remember an event that never happened or remember it differently than it actually occurred."
+    },
+    {
+        "front": "Misinformation effect",
+        "back": "A phenomenon in which a person mistakenly recalls misleading information that an experimenter has provided, instead of accurately recalling the correct information that had been presented earlier. For example, if you see a car accident and later hear someone say that the car was red, you might mistakenly remember the car as red even if it was actually blue."
+    },
+    {
+        "front": "Retroactive interference",
+        "back": "When learning new information interferes with the recall of old information. For example, if you learn a new phone number, you might have trouble remembering your old phone number."
+    },
+    {
+        "front": "Proactive interference",
+        "back": "When older information interferes with the recall of new information. For example, if you learn a new language, you might have trouble remembering vocabulary from your old language."
+    }
+]
