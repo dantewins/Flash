@@ -13,6 +13,15 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import {
+  Dialog,
+  DialogDescription,
+  DialogContent,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 import { Search, ArrowLeft, ArrowRight, Shuffle } from "lucide-react";
 
 interface Flashcard {
@@ -73,6 +82,9 @@ export default function FlashcardPage() {
   const [idx, setIdx] = useState(0);
   const [flipped, setFlip] = useState(false);
   const [dir, setDir] = useState<0 | 1 | -1>(0);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [entries, setEntries] = useState<any[]>([]);
+  const [loading, setLoading] = useState(false);
 
   const lastRef = useRef(0);
   const nowOk = () => {
@@ -108,6 +120,20 @@ export default function FlashcardPage() {
   };
 
   useEffect(() => {
+    if (!searchOpen) return;
+    const term = cards[idx].front.toLowerCase().replace(/\s+/g, "-");
+    setLoading(true);
+    fetch(
+      `https://4hb3d9itb2.execute-api.us-east-1.amazonaws.com/prod/getdopdefinitions?q=${term}`
+    )
+      .then((r) => r.json())
+      .then((data) => {
+        setEntries(data.terms || []);
+        setLoading(false);
+      });
+  }, [searchOpen, idx, cards]);
+
+  useEffect(() => {
     const h = (e: KeyboardEvent) => {
       if (e.code === "ArrowLeft") paginate(-1);
       else if (e.code === "ArrowRight") paginate(1);
@@ -141,11 +167,7 @@ export default function FlashcardPage() {
                 <SelectLabel>{folder}</SelectLabel>
                 {Object.keys(FOLDERS[folder]).map((name) => {
                   const v = `${folder}/${name}`;
-                  return (
-                    <SelectItem key={v} value={v}>
-                      {LABELS[v]}
-                    </SelectItem>
-                  );
+                  return <SelectItem key={v} value={v}>{LABELS[v]}</SelectItem>;
                 })}
               </SelectGroup>
             ))}
@@ -155,15 +177,38 @@ export default function FlashcardPage() {
 
       <div className="w-[90vw] sm:w-full max-w-[48rem] flex flex-col">
         <div className="flex items-center justify-between mb-4 h-12">
-          <Button variant="outline" size="lg" className="cursor-pointer" onClick={() => {}}>
-            <Search className="h-7 w-7" strokeWidth="3px" />
-          </Button>
+          <Dialog open={searchOpen} onOpenChange={setSearchOpen}>
+            <DialogTrigger asChild>
+              <Button variant="outline" size="lg" className="cursor-pointer">
+                <Search className="h-7 w-7" strokeWidth="3px" />
+              </Button>
+            </DialogTrigger>
+            <DialogContent>
+              <DialogHeader>
+                <DialogTitle>Definition</DialogTitle>
+                <DialogDescription>Definition for <strong>{card.front}</strong></DialogDescription>
+              </DialogHeader>
+              {loading && <p>Loading...</p>}
+              {!loading && entries.length === 0 && <p>No definition found for “{card.front}.”</p>}
+              {!loading && entries.length > 0 && (
+                <div>
+                  {entries.map((e, i) => (
+                    <div key={i} className="mb-4">
+                      <div className="text-lg font-semibold" dangerouslySetInnerHTML={{ __html: e.term }} />
+                      <div className="prose" dangerouslySetInnerHTML={{ __html: e.definition }} />
+                    </div>
+                  ))}
+                </div>
+              )}
+              <DialogFooter>
+                <Button onClick={() => setSearchOpen(false)}>Close</Button>
+              </DialogFooter>
+            </DialogContent>
+          </Dialog>
           <div className="flex-1 flex items-center justify-center">
-            <span className="text-2xl font-bold leading-none">
-              {idx + 1} / {cards.length}
-            </span>
+            <span className="text-2xl font-bold leading-none">{idx + 1} / {cards.length}</span>
           </div>
-          <Button variant="outline" size="lg" className="cursor-pointer" onClick={shuffle}>
+          <Button variant="outline" size="lg" onClick={shuffle} className="cursor-pointer">
             <Shuffle className="h-7 w-7" strokeWidth="3px" />
           </Button>
         </div>
@@ -179,9 +224,7 @@ export default function FlashcardPage() {
               exit="exit"
               className="absolute inset-0 cursor-pointer select-none"
               style={{ transformStyle: "preserve-3d" }}
-              onClick={() => {
-                if (nowOk()) setFlip(!flipped);
-              }}
+              onClick={() => nowOk() && setFlip(!flipped)}
             >
               <motion.div
                 className="absolute inset-0"
@@ -211,12 +254,7 @@ export default function FlashcardPage() {
           <Button size="lg" className="cursor-pointer w-15" disabled={idx === 0} onClick={() => paginate(-1)}>
             <ArrowLeft className="h-7 w-7" strokeWidth="3px" />
           </Button>
-          <Button
-            size="lg"
-            className="cursor-pointer w-15"
-            disabled={idx === cards.length - 1}
-            onClick={() => paginate(1)}
-          >
+          <Button size="lg" className="cursor-pointer w-15" disabled={idx === cards.length - 1} onClick={() => paginate(1)}>
             <ArrowRight className="h-7 w-7" strokeWidth="3px" />
           </Button>
         </div>

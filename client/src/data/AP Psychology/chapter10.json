@@ -1,0 +1,73 @@
+[
+    {
+        "set": "Testing and Individual Differences"
+    },
+    {
+        "front": "Standardized",
+        "back": "When a test is standardized, it means that the test is administered and scored in a consistent manner. This allows for comparison between individuals and groups."
+    },
+    {
+        "front": "Reliability",
+        "back": "Shows the precision of a test. A test is reliable if it produces consistent results over time. It is also referred to as consitency."
+    },
+    {
+        "front": "Split-half reliability",
+        "back": "A method of testing reliability by dividing a test into two equal halves and comparing the scores. If the scores are similar, the test is considered reliable. The closer the coorrelation coefficient is to +1, the more reliable the test is."
+    },
+    {
+        "front": "Test-retest reliability",
+        "back": "A method of testing reliability by corrleating scores on the same test (or different forms) taken at different times. If the scores are similar, the test is considered reliable. The closer the correlation coefficient is to +1, the more reliable the test is."
+    },
+    {
+        "front": "Validity",
+        "back": "The extent to which a test measures what it is supposed to measure. A test is valid if it accurately measures the construct it is intended to measure. It is also referred to as accuracy."
+    },
+    {
+        "front": "Predictive validity",
+        "back": "A measure of future performance. A test is said to have predictive validity if it accurately predicts future performance on a related task. For example, the SAT has predictive validity for college success."
+    },
+    {
+        "front": "Construct validity",
+        "back": "The most meaningful kind of validity that measures the extent to which a test measures the construct it is intended to measure. For example, a test that measures intelligence should accurately measure intelligence, not something else."
+    },
+    {
+        "front": "Aptitute tests",
+        "back": "Tests that measure the ability to learn or perform a specific task. For example, the SAT is an aptitude test that measures the ability to succeed in college. These types of tests focus on the potential of an applicant."
+    },
+    {
+        "front": "Achievement tests",
+        "back": "Tests that measure what one has learned or accomplished. For example, the AP exam is an achievement test that measures what one has learned in a specific subject. These types of tests focus on the mastery of an applicant"
+    },
+    {
+        "front": "Intelligence",
+        "back": "A term defined as the ability to gather and use information in productive ways. It is often measured by IQ tests. Intelligence is a complex and multifaceted construct that includes cognitive abilities, problem-solving skills, and the ability to adapt to new situations."
+    },
+    {
+        "front": "Fluid intelligence",
+        "back": "Intelligence that is not tied to a specific knowledge base. It is the ability to think abstractly and solve problems in novel situations, independent of acquired knowledge. For example, solving a puzzle or a math problem without prior knowledge."
+    },
+    {
+        "front": "Crystallized intelligence",
+        "back": "Intelligence that involves using knowledge that was previously acquired through experience. It is the ability to use learned knowledge and experience to solve problems. For example, using vocabulary and general knowledge to answer questions on a test."
+    },
+    {
+        "front": "Mental age",
+        "back": "An idea that was developed by Alfred Binet that refers to the age at which a person is performing intellectually. For example, if a 10-year-old child has a mental age of 12, they are performing at the level of a 12-year-old."
+    },
+    {
+        "front": "Standford-Binet IQ",
+        "back": "IQ stands for intelligence quotient. The Stanford-Binet IQ test is a standardized test that measures intelligence. It was developed by Lewis Terman and is based on the work of Alfred Binet. The formula for calculating IQ is (mental age/chronological age) x 100."
+    },
+    {
+        "front": "Chronological age",
+        "back": "The actual age of a person, measured in years. For example, if a child is 10 years old, their chronological age is 10."
+    },
+    {
+        "front": "Heritability",
+        "back": "A measure of how much a trait's variation is explained by genetic factors. It is often expressed as a percentage. For example, if the heritability of intelligence is 50%, it means that 50% of the variation in intelligence can be explained by genetic factors."
+    },
+    {
+        "front": "Flynn effect",
+        "back": "An effect that explains the increase in IQ scores over time. It is named after James Flynn, who discovered that IQ scores have been rising steadily over the past century. This effect is thought to be due to environmental factors, such as improved education and nutrition."
+    }
+]
