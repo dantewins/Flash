@@ -29,6 +29,14 @@ interface Flashcard {
   back: string;
 }
 
+function sortNumeric(a: string, b: string): number {
+  const ax = a.match(/(\d+)/);
+  const bx = b.match(/(\d+)/);
+  const na = ax ? parseInt(ax[1], 10) : 0;
+  const nb = bx ? parseInt(bx[1], 10) : 0;
+  return na - nb;
+}
+
 const dataCtx = (require as any).context("../data", true, /\.json$/);
 
 type DeckMap = Record<string, Flashcard[]>;
@@ -41,9 +49,8 @@ const LABELS: LabelMap = {};
 
 (dataCtx.keys() as string[]).forEach((p) => {
   const [folder, file] = p.replace("./", "").split("/");
-  if (!file) return;
   const raw = (dataCtx(p)?.default ?? dataCtx(p)) as any[];
-  if (!raw.length) return;
+  if (!file || !raw.length) return;
   const title = raw[0].set ?? file.replace(".json", "");
   const deck = raw.slice(1) as Flashcard[];
   (FOLDERS[folder] ||= {})[file] = deck;
@@ -74,8 +81,10 @@ const slide: Variants = {
 };
 
 export default function FlashcardPage() {
-  const folderNames = Object.keys(FOLDERS);
-  const defaultKey = `${folderNames[0]}/${Object.keys(FOLDERS[folderNames[0]])[0]}`;
+  const folderNames = Object.keys(FOLDERS).sort(sortNumeric);
+  const firstFolder = folderNames[0];
+  const filesInFirst = Object.keys(FOLDERS[firstFolder]).sort(sortNumeric);
+  const defaultKey = `${firstFolder}/${filesInFirst[0]}`;
 
   const [deckKey, setDeckKey] = useState(defaultKey);
   const [cards, setCards] = useState<Flashcard[]>([...ORIGINAL_DECKS[defaultKey]]);
@@ -165,10 +174,16 @@ export default function FlashcardPage() {
             {folderNames.map((folder) => (
               <SelectGroup key={folder}>
                 <SelectLabel>{folder}</SelectLabel>
-                {Object.keys(FOLDERS[folder]).map((name) => {
-                  const v = `${folder}/${name}`;
-                  return <SelectItem key={v} value={v}>{LABELS[v]}</SelectItem>;
-                })}
+                {Object.keys(FOLDERS[folder])
+                  .sort(sortNumeric)
+                  .map((fileName) => {
+                    const value = `${folder}/${fileName}`;
+                    return (
+                      <SelectItem key={value} value={value}>
+                        {LABELS[value]}
+                      </SelectItem>
+                    );
+                  })}
               </SelectGroup>
             ))}
           </SelectContent>
@@ -201,7 +216,7 @@ export default function FlashcardPage() {
                 </div>
               )}
               <DialogFooter>
-                <Button onClick={() => setSearchOpen(false)}>Close</Button>
+                <Button onClick={() => setSearchOpen(false)} className="hover:cursor-pointer">Close</Button>
               </DialogFooter>
             </DialogContent>
           </Dialog>

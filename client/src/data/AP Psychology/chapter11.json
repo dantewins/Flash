@@ -1,0 +1,281 @@
+[
+    {
+        "set": "Developmental Psychology"
+    },
+    {
+        "front": "Nature",
+        "back": "Heredity; the genetic transmission of characteristics from parents to their offspring."
+    },
+    {
+        "front": "Nurture",
+        "back": "Environment; the sum of all external conditions affecting development, including especially the effects of learning."
+    },
+    {
+        "front": "Teratogens",
+        "back": "Agents that cause malformation of an embryo. For example, alcohol, drugs, and viruses."
+    },
+    {
+        "front": "Reflexes",
+        "back": "Involuntary responses to stimuli. For example, the rooting reflex, sucking reflex, grasping reflex, and Moro reflex."
+    },
+    {
+        "front": "Rooting reflex",
+        "back": "A reflex that causes a newborn to turn its head toward the source of touching that occurs anywhere around its mouth."
+    },
+    {
+        "front": "Sucking reflex",
+        "back": "A reflex that causes a newborn to suck at anything that touches the area around its mouth."
+    },
+    {
+        "front": "Grasping reflex",
+        "back": "A reflex that causes a newborn to grasp anything that touches the palm of its hand or the sole of its foot."
+    },
+    {
+        "front": "Moro reflex",
+        "back": "A reflex that causes a newborn to startle in response to a loud noise or sudden movement in which the fling out their arms and legs and then retract them in order to make themselves as small as possible."
+    },
+    {
+        "front": "Babinski reflex",
+        "back": "A reflex that causes a newborn to spread its toes when the sole of its foot is stroked."
+    },
+    {
+        "front": "Visual cliff",
+        "back": "A laboratory device for testing depth perception in infants and young animals."
+    },
+    {
+        "front": "Motor skills",
+        "back": "The ability to move the body and manipulate objects. For example, fine motor skills and gross motor skills."
+    },
+    {
+        "front": "Gross motor skills",
+        "back": "The ability to control large muscle movements. For example, crawling, walking, and running."
+    },
+    {
+        "front": "Gender schema",
+        "back": "The organized set of beliefs and expectations that guides one’s understanding of gender."
+    },
+    {
+        "front": "Discontinuous",
+        "back": "Development that occurs in distinct stages, with each stage bringing about behavior that is assumed to be qualitatively different from behavior at earlier stages."
+    },
+    {
+        "front": "Growth spurt",
+        "back": " A rapid increase in height and weight that occurs during puberty."
+    },
+    {
+        "front": "Zone of proximal development",
+        "back": "The difference between what a learner can do without help and what he or she can do with help."
+    },
+    {
+        "front": "Psychosocial stage theory",
+        "back": "Erik Erikson's theory that individuals pass through eight developmental stages, each with a crisis that must be resolved."
+    },
+    {
+        "front": "Trust versus mistrust",
+        "back": "The first psychosocial stage, in which infants learn to trust when they are cared for in a consistent warm manner."
+    },
+    {
+        "front": "Autonomy versus shame and doubt",
+        "back": "The second psychosocial stage, in which toddlers learn to exercise will and do things independently; failure to do so causes shame and doubt."
+    },
+    {
+        "front": "Initative versus guilt",
+        "back": "The third psychosocial stage, in which the child finds independence in planning, playing and other activities."
+    },
+    {
+        "front": "Industry versus inferiority",
+        "back": "The fourth psychosocial stage, in which the child learns to be productive."
+    },
+    {
+        "front": "Identity versus role confusion",
+        "back": "The fifth psychosocial stage, in which teenagers and young adults search for and become their true selves."
+    },
+    {
+        "front": "Intimacy versus isolation",
+        "back": "The sixth psychosocial stage, in which individuals form deeply personal relationships, marry, begin families."
+    },
+    {
+        "front": "Generativity versus stagnation",
+        "back": "The seventh psychosocial stage, in which middle-aged people begin to devote themselves more to fulfilling one's potential and doing public service."
+    },
+    {
+        "front": "Integrity versus despair",
+        "back": "The eighth psychosocial stage, in which those near the end of life look back and evaluate their lives."
+    },
+    {
+        "front": "Imaginary audience",
+        "back": "The belief that others are as preoccupied with the adolescent as they are themselves."
+    },
+    {
+        "front": "Assimilation",
+        "back": "The process of taking in new information into our already existing schemas. For example, a child sees a zebra and calls it a horse. This process does not change the schema."
+    },
+    {
+        "front": "Accomodation",
+        "back": "The process of altering or adjusting old schemas to fit new information and experiences. For example, a child sees a zebra and calls it a horse. The parent corrects the child and says it is a zebra. This process changes the schema."
+    },
+    {
+        "front": "Schemata",
+        "back": "Mental structures that organize our knowledge and assumptions about something and are used for interpreting and processing information. For instance, a child has a schema for a horse and sees a zebra. The child calls the zebra a horse."
+    },
+    {
+        "front": "Object permanence",
+        "back": "A concept that objects continue to exist even when they cannot be seen. For example, a child will look for a toy that has been hidden under a blanket."
+    },
+    {
+        "front": "Mental symbols",
+        "back": "The ability to use symbols to represent objects, actions, and ideas. For example, a child can use a block to represent a car."
+    },
+    {
+        "front": "Egocentric",
+        "back": "A concept in which a child is unable to see a situation from another person's point of view. For example, a child may think that everyone sees the world as they do."
+    },
+    {
+        "front": "Pretend play",
+        "back": "Also referred to as fantasy play, it is a type of play in which children use their imagination to create scenarios and roles. For example, a child may pretend to be a doctor or a teacher."
+    },
+    {
+        "front": "Theory of mind",
+        "back": "The understanding that others have thoughts, beliefs, and perspectives that are different from one's own. For example, a child may understand that their friend is sad because they lost a toy."
+    },
+    {
+        "front": "Concepts of conservation",
+        "back": "The understanding that certain properties of objects remain the same despite changes in their form or appearance. For example, a child may understand that a tall, thin glass holds the same amount of liquid as a short, wide glass."
+    },
+    {
+        "front": "Formal operational stage",
+        "back": "The stage of cognitive development (12 years and up) during which people begin to think logically about abstract concepts. For example, a child can solve algebraic equations and understand hypothetical situations."
+    },
+    {
+        "front": "Abstract reasoning",
+        "back": "The ability to think about concepts and ideas that are not physically present or concrete. For example, a child can understand the concept of justice or freedom."
+    },
+    {
+        "front": "Hypothetical reasoning",
+        "back": "The ability to think about possibilities and hypothetical situations. For example, a child can understand the consequences of a decision before making it."
+    },
+    {
+        "front": "Concrete operational stage",
+        "back": "The stage of cognitive development (7 to 11 years) during which children gain a better understanding of mental operations. For example, a child can understand the concept of conservation and can classify objects into categories."
+    },
+    {
+        "front": "Metacognition",
+        "back": "The awareness and understanding of one's own thought processes. For example, a child may reflect on their own learning strategies and adjust them accordingly."
+    },
+    {
+        "front": "Personal fable",
+        "back": "The belief that one's experiences and feelings are unique and not understood by others. For example, a teenager may believe that no one else has ever felt the same way they do."
+    },
+    {
+        "front": "Phonemes",
+        "back": "The smallest units of sound in a language that can distinguish one word from another. For example, the sounds /b/ and /p/ in the words 'bat' and 'pat'."
+    },
+    {
+        "front": "Morphemes",
+        "back": "The smallest units of meaning in a language. For example, the word 'cats' has two morphemes: 'cat' (the animal) and 's' (indicating plural)."
+    },
+    {
+        "front": "Syntax",
+        "back": "The set of rules that govern the structure of sentences in a language. For example, in English, the typical word order is subject-verb-object (SVO)."
+    },
+    {
+        "front": "Semantics",
+        "back": "The study of meaning in language. For example, the word 'dog' refers to a specific type of animal."
+    },
+    {
+        "front": "Babbling",
+        "back": "The stage of language development in which infants produce repetitive consonant-vowel combinations, such as 'ba-ba' or 'da-da.' This stage typically occurs around 4 to 6 months of age."
+    },
+    {
+        "front": "Holophrastic stage",
+        "back": "The stage of language development in which infants use single words to convey whole ideas or sentences. For example, a child may say 'milk' to mean 'I want milk.' This stage typically occurs around 12 months of age."
+    },
+    {
+        "front": "One-word stage",
+        "back": "The stage of language development in which children use single words to express complete thoughts. For example, a child may say 'up' to mean 'pick me up.' This stage typically occurs around 12 months of age."
+    },
+    {
+        "front": "Telegraphic speech",
+        "back": "The stage of language development in which children use two or three-word phrases that contain only the essential words needed to convey meaning. For example, a child may say 'want cookie' instead of 'I want a cookie.' This stage typically occurs around 18 to 24 months of age."
+    },
+    {
+        "front": "Two-word stage",
+        "back": "The stage of language development in which children use two-word combinations to express simple ideas. For example, a child may say 'big truck' to describe a large vehicle. This stage typically occurs around 18 to 24 months of age."
+    },
+    {
+        "front": "Overgeneralization",
+        "back": "The application of a grammatical rule too widely and thereby creating incorrect forms. For example, a child may say 'goed' instead of 'went' or 'mouses' instead of 'mice.' This stage typically occurs around 2 to 3 years of age."
+    },
+    {
+        "front": "Overregularization",
+        "back": "The application of regular grammatical rules to irregular nouns and verbs. For example, a child may say 'runned' instead of 'ran' or 'foots' instead of 'feet.' This stage typically occurs around 2 to 3 years of age."
+    },
+    {
+        "front": "Critical period",
+        "back": "A specific time during development when an organism is particularly sensitive to certain environmental stimuli. For example, the critical period for language acquisition is thought to be during early childhood."
+    },
+    {
+        "front": "Attachment parenting",
+        "back": "A parenting style that emphasizes close physical and emotional bonds between parent and child, often involving practices such as co-sleeping and extended breastfeeding."
+    },
+    {
+        "front": "Temperament",
+        "back": "A person's characteristic emotional reactivity and intensity. For example, a child may be described as easy, difficult, or slow to warm up."
+    },
+    {
+        "front": "Secure attachments",
+        "back": "A strong emotional bond between a child and caregiver, characterized by trust and a sense of safety. For example, a securely attached child will feel comfortable exploring their environment while knowing they can return to their caregiver for support."
+    },
+    {
+        "front": "Avoidant attachments",
+        "back": "A type of insecure attachment characterized by a lack of emotional connection and avoidance of closeness with caregivers. For example, an avoidant child may not seek comfort from their caregiver when upset."
+    },
+    {
+        "front": "Anxious/ambivalent attachments",
+        "back": "A type of insecure attachment characterized by anxiety and uncertainty in relationships. For example, an anxious/ambivalent child may cling to their caregiver but also resist comfort when offered."
+    },
+    {
+        "front": "Resistant attachments",
+        "back": "A type of insecure attachment characterized by ambivalence and resistance to comfort from caregivers. For example, a resistant child may cry when their caregiver leaves but also push them away when they return."
+    },
+    {
+        "front": "Insecure attachments",
+        "back": "A type of attachment characterized by anxiety and uncertainty in relationships. For example, an insecurely attached child may have difficulty forming healthy relationships in adulthood."
+    },
+    {
+        "front": "Separation anxiety",
+        "back": "The distress that a child experiences when separated from their primary caregiver. For example, a child may cry or become upset when their parent leaves the room."
+    },
+    {
+        "front": "Microsystem",
+        "back": "The immediate environment in which a person lives, including family, friends, and school. For example, a child's microsystem includes their home, school, and neighborhood."
+    },
+    {
+        "front": "Mesosystem",
+        "back": "The interconnections between the various microsystems in a person's life. For example, the relationship between a child's home and school environments."
+    },
+    {
+        "front": "Exosystem",
+        "back": "The larger social system in which a person lives, including community, government, and media. For example, a child's exosystem includes their neighborhood, school district, and local government."
+    },
+    {
+        "front": "Macrosystem",
+        "back": "The broader cultural context in which a person lives, including societal values, customs, and laws. For example, a child's macrosystem includes the cultural norms and values of their society."
+    },
+    {
+        "front": "Chronosystem",
+        "back": "The dimension of time in relation to a person's development, including life transitions and historical events. For example, a child's chronosystem includes the timing of significant life events, such as moving to a new city or experiencing a natural disaster."
+    },
+    {
+        "front": "Authoritarian parents",
+        "back": "Parents who are demanding and unresponsive. They impose rules and expect obedience, but do not provide warmth or emotional support."
+    },
+    {
+        "front": "Permissive parents",
+        "back": "Parents who are warm and responsive but do not impose rules or expectations. They allow children to make their own decisions and set their own limits."
+    },
+    {
+        "front": "Authoritative parents",
+        "back": "Parents who are both demanding and responsive. They set high expectations for their children but also provide warmth and support."
+    }
+]
