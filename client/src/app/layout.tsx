@@ -14,8 +14,13 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  title: "Flash",
-  description: "Made by dantewins; a simple, fast, and effective way to learn vocab words",
+  title: "white",
+  description: "Made by dantewins — a simple, fast, and effective way to learn vocab words.",
+  icons: {
+    icon: "/logo.jpg",
+    shortcut: "/logo.jpg",
+    apple: "/logo.jpg",
+  },
 };
 
 export default function RootLayout({

@@ -1,0 +1,157 @@
+[
+    {
+        "set": "Personality"
+    },
+    {
+        "front": "Psychodynamic theory",
+        "back": "A theory of personality that focuses on the unconscious mind and childhood experiences. It was developed by Sigmund Freud and emphasizes the influence of the unconscious mind on behavior and personality."
+    },
+    {
+        "front": "Unconscious processes",
+        "back": "Mental processes that occur without conscious awareness. These processes can influence thoughts, feelings, and behaviors without individuals being aware of them."
+    },
+    {
+        "front": "Preconscious",
+        "back": "Mental processes that are not currently in awareness but can be brought into consciousness with some effort. For example, you may not be thinking about your favorite song, but you can recall it when prompted."
+    },
+    {
+        "front": "Conscious",
+        "back": "The part of the mind that contains thoughts and feelings that we are currently aware of. It includes our immediate thoughts, perceptions, and feelings."
+    },
+    {
+        "front": "Id",
+        "back": "The part of the personality that operates on the pleasure principle, seeking immediate gratification of basic drives and desires. It is present from birth and is entirely unconscious."
+    },
+    {
+        "front": "Ego",
+        "back": "The part of the personality that operates on the reality principle, mediating between the demands of the id and the constraints of the external world. It is responsible for rational thought and decision-making."
+    },
+    {
+        "front": "Superego",
+        "back": "The part of the personality that represents internalized moral standards and ideals. It develops through socialization and serves as a conscience, guiding behavior according to societal norms."
+    },
+    {
+        "front": "Instincts",
+        "back": "Innate biological drives that motivate behavior. Freud identified two primary instincts: the life instinct (Eros), which drives survival and reproduction, and the death instinct (Thanatos), which drives aggression and self-destruction."
+    },
+    {
+        "front": "Defense mechanisms",
+        "back": "Unconscious psychological strategies used by the ego to protect itself from anxiety and conflict. They help individuals cope with stress and maintain psychological equilibrium."
+    },
+    {
+        "front": "Repression",
+        "back": "A defense mechanism that involves pushing distressing thoughts, feelings, or memories out of conscious awareness. It is a way to protect the individual from anxiety and emotional pain."
+    },
+    {
+        "front": "Denial",
+        "back": "A defense mechanism that involves refusing to accept reality or the truth of a situation. It is a way to protect oneself from uncomfortable emotions or situations."
+    },
+    {
+        "front": "Displacement",
+        "back": "A defense mechanism that involves redirecting emotions or impulses from their original source to a less threatening target. For example, someone who is angry at their boss may take it out on a family member."
+    },
+    {
+        "front": "Projection",
+        "back": "A defense mechanism that involves attributing one's own unacceptable thoughts, feelings, or impulses to someone else. For example, a person who is jealous may accuse their partner of being unfaithful."
+    },
+    {
+        "front": "Reaction formation",
+        "back": "A defense mechanism that involves expressing the opposite of one's true feelings or desires. For example, a person who is angry may act overly friendly to hide their true emotions."
+    },
+    {
+        "front": "Regression",
+        "back": "A defense mechanism that involves reverting to an earlier stage of development in response to stress or anxiety. For example, an adult may throw a temper tantrum when faced with a difficult situation."
+    },
+    {
+        "front": "Rationalization",
+        "back": "A defense mechanism that involves justifying or explaining away one's behavior or feelings in a logical manner. For example, a student who fails an exam may blame the teacher instead of their own lack of preparation."
+    },
+    {
+        "front": "Intellectualization",
+        "back": "A defense mechanism that involves using logic and reasoning to avoid emotional distress. For example, a person may focus on the technical details of a medical diagnosis rather than the emotional impact of the illness."
+    },
+    {
+        "front": "Sublimation",
+        "back": "A defense mechanism that involves channeling unacceptable impulses or desires into socially acceptable activities. For example, a person with aggressive tendencies may take up a sport to release pent-up energy."
+    },
+    {
+        "front": "Projective tests",
+        "back": "Psychological assessments that use ambiguous stimuli to elicit responses that reveal aspects of an individual's personality. Examples include the Rorschach inkblot test and the Thematic Apperception Test (TAT)."
+    },
+    {
+        "front": "Humanistic psychology",
+        "back": "A psychological perspective that emphasizes the study of the whole person and the uniqueness of each individual. It focuses on personal growth, self-actualization, and the inherent goodness of people."
+    },
+    {
+        "front": "Self-concept",
+        "back": "An individual's perception of themselves, including their beliefs, values, and attributes. It is shaped by experiences and interactions with others."
+    },
+    {
+        "front": "Self-esteem",
+        "back": "An individual's overall evaluation of their worth or value. It reflects how much a person likes and respects themselves."
+    },
+    {
+        "front": "Self-actualize",
+        "back": "The process of realizing and fulfilling one's potential and capabilities. It is the highest level of psychological development according to Maslow's hierarchy of needs."
+    },
+    {
+        "front": "Unconditional positive regard",
+        "back": "An attitude of acceptance and support toward a person regardless of their behavior or feelings. It is a key concept in Carl Rogers' humanistic approach to therapy."
+    },
+    {
+        "front": "Big Five",
+        "back": "A model of personality that identifies five broad dimensions of personality traits: openness to experience, conscientiousness, extraversion, agreeableness, and neuroticism (emotional stability)."
+    },
+    {
+        "front": "Agreeableness",
+        "back": "A personality trait characterized by being compassionate, cooperative, and friendly. Individuals high in agreeableness are often empathetic and willing to help others."
+    },
+    {
+        "front": "Openness to experience",
+        "back": "A personality trait characterized by a willingness to try new things, be imaginative, and embrace new ideas. Individuals high in openness are often curious and open-minded."
+    },
+    {
+        "front": "Extraversion/Extroversion",
+        "back": "A personality trait characterized by being outgoing, sociable, and energetic. Extraverts tend to seek stimulation in the company of others, while introverts prefer solitary activities."
+    },
+    {
+        "front": "Conscientiousness",
+        "back": "A personality trait characterized by being organized, responsible, and dependable. Individuals high in conscientiousness are often disciplined and goal-oriented."
+    },
+    {
+        "front": "Emotional stability",
+        "back": "A personality trait characterized by being calm, composed, and resilient in the face of stress. Individuals high in emotional stability are less prone to anxiety and mood swings."
+    },
+    {
+        "front": "Reciprocal determinism",
+        "back": "A concept in social-cognitive theory that suggests that behavior, personal factors, and environmental influences all interact and influence each other. It emphasizes the dynamic interplay between these factors in shaping personality and behavior."
+    },
+    {
+        "front": "Self-efficacy",
+        "back": "An individual's belief in their ability to succeed in specific situations or accomplish tasks. It influences motivation, behavior, and emotional responses."
+    },
+    {
+        "front": "Internal locus of control",
+        "back": "A belief that one has control over their own life and outcomes. Individuals with an internal locus of control believe that their actions and decisions directly influence their success or failure."
+    },
+    {
+        "front": "External locus of control",
+        "back": "A belief that external factors, such as luck or fate, have control over one's life and outcomes. Individuals with an external locus of control believe that their success or failure is determined by forces outside of their control."
+    },
+    {
+        "front": "Explanatory style",
+        "back": "A person's habitual way of explaining events, particularly in terms of their causes. It can be optimistic (seeing positive outcomes) or pessimistic (seeing negative outcomes)."
+    },
+    {
+        "front": "Optimistic explanatory style",
+        "back": "A way of explaining events that emphasizes positive outcomes and sees challenges as temporary and manageable. Individuals with an optimistic explanatory style tend to have better mental health and resilience."
+    },
+    {
+        "front": "Pessimistic explanatory style",
+        "back": "A way of explaining events that emphasizes negative outcomes and sees challenges as permanent and uncontrollable. Individuals with a pessimistic explanatory style may be more prone to depression and anxiety."
+    },
+    {
+        "front": "Personality inventories",
+        "back": "Standardized questionnaires used to assess personality traits and characteristics. They often consist of a series of statements or questions that individuals respond to in order to measure various aspects of their personality."
+    }
+]
