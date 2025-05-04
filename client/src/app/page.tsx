@@ -29,24 +29,6 @@ interface Flashcard {
   back: string;
 }
 
-interface SetInfo {
-  set: string;
-}
-
-type RawDeckData = [SetInfo, ...Flashcard[]];
-type DefinitionEntry = { term: string; definition: string };
-
-interface RequireContextFunction {
-  context: (
-    path: string,
-    useSubdirectories: boolean,
-    filter: RegExp
-  ) => {
-    keys: () => string[];
-    <T>(id: string): T;
-  };
-}
-
 function sortNumeric(a: string, b: string): number {
   const ax = a.match(/(\d+)/);
   const bx = b.match(/(\d+)/);
@@ -55,11 +37,7 @@ function sortNumeric(a: string, b: string): number {
   return na - nb;
 }
 
-const dataCtx = ((require as unknown) as RequireContextFunction).context(
-  "../data",
-  true,
-  /\.json$/
-);
+const dataCtx = (require as any).context("../data", true, /\.json$/);
 
 type DeckMap = Record<string, Flashcard[]>;
 type FolderMap = Record<string, DeckMap>;
@@ -71,10 +49,10 @@ const LABELS: LabelMap = {};
 
 (dataCtx.keys() as string[]).forEach((p) => {
   const [folder, file] = p.replace("./", "").split("/");
-  const raw = (dataCtx(p)?.default ?? dataCtx(p)) as RawDeckData;
+  const raw = (dataCtx(p)?.default ?? dataCtx(p)) as any[];
   if (!file || !raw.length) return;
   const title = raw[0].set ?? file.replace(".json", "");
-  const deck = raw.slice(1);
+  const deck = raw.slice(1) as Flashcard[];
   (FOLDERS[folder] ||= {})[file] = deck;
   ORIGINAL_DECKS[`${folder}/${file}`] = deck;
   LABELS[`${folder}/${file}`] = title;
@@ -114,7 +92,7 @@ export default function FlashcardPage() {
   const [flipped, setFlip] = useState(false);
   const [dir, setDir] = useState<0 | 1 | -1>(0);
   const [searchOpen, setSearchOpen] = useState(false);
-  const [entries, setEntries] = useState<DefinitionEntry[]>([]);
+  const [entries, setEntries] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
 
   const lastRef = useRef(0);

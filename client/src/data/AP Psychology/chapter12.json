@@ -3,312 +3,196 @@
         "set": "Learning"
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Puberty",
+        "back": "The period of sexual maturation, during which a person becomes capable of reproducing."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Menopause",
+        "back": "The time of natural cessation of menstruation; also refers to the biological changes"
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Classical conditioning",
+        "back": "A type of learning in which one learns to link two or more stimuli and anticipate events."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Associative learning",
+        "back": "Learning that certain events occur together. The events may be two stimuli (as in classical conditioning) or a response and its consequences (as in operant conditioning)."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Unconditioned stimulus (US or UCS)",
+        "back": "A stimulus that unconditionally—naturally and automatically—triggers a response."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Unconditioned response (UR or UCR)",
+        "back": "An unlearned, naturally occurring response to an unconditioned stimulus (US)."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Conditioned response (CR)",
+        "back": "A learned response to a previously neutral (but now conditioned) stimulus (CS)."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Conditioned stimulus (CS)",
+        "back": "An originally irrelevant stimulus that, after association with an unconditioned stimulus (US), comes to trigger a conditioned response (CR)."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Acquisition",
+        "back": "The initial stage in classical conditioning; the phase associating a neutral stimulus with an unconditioned stimulus so that the neutral stimulus comes to elicit a conditioned response."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Trace conditioning",
+        "back": "A form of classical conditioning in which the conditioned stimulus (CS) is presented and removed before the unconditioned stimulus (US) is presented."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Stimulatneous conditioning",
+        "back": "A form of classical conditioning in which the conditioned stimulus (CS) and unconditioned stimulus (US) are presented at the same time."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Backward conditioning",
+        "back": "A form of classical conditioning in which the unconditioned stimulus (US) is presented before the conditioned stimulus (CS)."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Extinction",
+        "back": "The diminishing of a conditioned response; occurs in classical conditioning when an unconditioned stimulus (US) does not follow a conditioned stimulus (CS); occurs in operant conditioning when a response is no longer reinforced."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Spontaneous recovery",
+        "back": "The reappearance, after a pause, of an extinguished conditioned response."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Generalization",
+        "back": "The tendency, once a response has been conditioned, for stimuli similar to the conditioned stimulus (CS) to elicit similar responses."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Discrimination",
+        "back": "The learned ability to distinguish between a conditioned stimulus (CS) and other irrelevant stimuli."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Higher-order conditioning",
+        "back": "A procedure in which the conditioned stimulus (CS) in one conditioning experience is paired with a new neutral stimulus, creating a second (often weaker) conditioned stimulus (CS)."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Taste aversions",
+        "back": "A learned aversion to a particular taste or food that occurs after only one pairing of the food with illness."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "One-trial learning",
+        "back": "A form of learning that occurs after only one pairing of the conditioned stimulus (CS) and unconditioned stimulus (US)."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Biological preparedness",
+        "back": "The idea that organisms are innately predisposed to form associations between certain stimuli and responses."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Association",
+        "back": "A mental connection or relation between two things."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Opearnt conditioning",
+        "back": "A type of learning in which behavior is strengthened if followed by a reinforcer or diminished if followed by a punisher."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Law of effect",
+        "back": "Thorndike's principle that behaviors followed by favorable consequences become more likely, and that behaviors followed by unfavorable consequences become less likely."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Reinforcement",
+        "back": "In operant conditioning, any event that strengthens the behavior it follows."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Positive reinforcement",
+        "back": "Increasing behaviors by presenting positive stimuli, such as food. A positive reinforcer is any stimulus that, when presented after a response, strengthens the response. For example, getting a paycheck for work is an example of positive reinforcement."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Negative reinforcement",
+        "back": "Increasing behaviors by stopping or reducing negative stimuli. A negative reinforcer is any stimulus that, when removed after a response, strengthens the response. (Note: negative reinforcement is not punishment.) For example, taking painkillers to end pain is an example of negative reinforcement."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Punishment",
+        "back": "An event that tends to decrease the behavior that it follows."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Positive punishment",
+        "back": "Adding an aversive stimulus to decrease a behavior. For example, giving a speeding ticket to a driver who exceeds the speed limit."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Negative punishment",
+        "back": "Removing a rewarding stimulus to decrease a behavior. For example, taking away a child's toy to reduce misbehavior."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Shaping",
+        "back": "A procedure in operant conditioning in which reinforcers guide behavior toward closer and closer approximations of the desired behavior."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Reinforcement discrimination",
+        "back": "The ability to differentiate between different stimuli and respond accordingly. For example, a child may learn to respond to a specific sound that signals the arrival of food, while ignoring other sounds."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Discriminative stimulus",
+        "back": "In operant conditioning, a stimulus that elicits a response after association with reinforcement (in contrast to related stimuli not associated with reinforcement). For example, a green light may signal that a response will be reinforced, while a red light may signal that it will not."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Primary reinforcers",
+        "back": "An innately reinforcing stimulus, such as one that satisfies a biological need. For example, food, water, and warmth are primary reinforcers."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Secondary reinforcers",
+        "back": "A stimulus that gains its reinforcing power through its association with a primary reinforcer. For example, playing a game on your phone may be a secondary reinforcer because it is associated with the primary reinforcer of fun or entertainment."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Generalized reinforcer",
+        "back": "A secondary reinforcer that has been associated with a variety of primary reinforcers. For example, money is a generalized reinforcer because it can be exchanged for many different primary reinforcers."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Continuous reinforcement",
+        "back": "Reinforcing the desired response every time it occurs."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Partial-reinforcement effect",
+        "back": "The phenomenon in which behaviors learned under partial reinforcement are more resistant to extinction than those learned under continuous reinforcement."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Reinforcement schedules",
+        "back": "A pattern that defines how often a desired response will be reinforced."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Fixed-ratio (FR) schedule",
+        "back": "In operant conditioning, a reinforcement schedule that reinforces a response only after a specified number of responses. For example, a coffee shop may reward you with a free drink after every 10 purchased."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Variable-ratio (VR) schedule",
+        "back": "In operant conditioning, a reinforcement schedule that reinforces a response after an unpredictable number of responses. For example, slot machines reward gamblers after a varying number of responses."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Fixed-interval (FI) schedule",
+        "back": "In operant conditioning, a reinforcement schedule that reinforces a response only after a specified time has elapsed. For example, people check more frequently for the mail as the delivery time approaches."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Variable-interval (VI) schedule",
+        "back": "In operant conditioning, a reinforcement schedule that reinforces a response at unpredictable time intervals. For example, checking for a Facebook message or email."
     },
 
     {
-        "front": "",
-        "back": ""
+        "front": "Instictive drift",
+        "back": "The tendency of learned behavior to gradually revert to biologically predisposed patterns."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Modeling",
+        "back": "The process of observing and imitating a specific behavior. Also known as vicarious learning."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Social learning theory",
+        "back": "The theory that we learn social behavior by observing and imitating and by being rewarded or punished."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Latent learning",
+        "back": "Learning that occurs but is not apparent until there is an incentive to demonstrate it."
     },
     {
-        "front": "",
-        "back": ""
+        "front": "Cognitive map",
+        "back": "A mental representation of the layout of one's environment. For example, after exploring a maze, rats act as if they have learned a cognitive map of it."
     },
     {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
-    },
-    {
-        "front": "",
-        "back": ""
+        "front": "Insight learning",
+        "back": "A sudden realization of a problem's solution; contrasts with strategy-based solutions."
     }
 ]

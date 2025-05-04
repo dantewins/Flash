@@ -1,0 +1,191 @@
+[
+    {
+        "set": "Social Psychology"
+    },
+    {
+        "front": "Prosocial behavior",
+        "back": "Behavior that is intended to help others."
+    },
+    {
+        "front": "Social influence theory",
+        "back": "The theory that people are influenced by the presence of others in their social environment."
+    },
+    {
+        "front": "Attribution theory",
+        "back": "The theory that people try to understand the behavior of others by attributing it to internal or external causes." 
+    },
+    {
+        "front": "Dispositional attribution",
+        "back": "Attributing behavior to internal factors, such as personality traits or attitudes. Also known as person attribution. For example, if someone is late to a meeting, you might attribute it to their lack of punctuality."
+    },
+    {
+        "front": "Situation attribution",
+        "back": "Attributing behavior to external factors, such as the environment or social context. For example, if someone is late to a meeting, you might attribute it to traffic or an emergency."
+    },
+
+    {
+        "front": "Self-fulfilling prophecy",
+        "back": " A belief that leads to its own fulfillment. For example, if a teacher believes a student is not capable of succeeding, they may not provide the same level of support, leading the student to perform poorly."
+    },
+    {
+        "front": "Fundamental attribution error",
+        "back": "The tendency to overestimate the impact of dispositional factors and underestimate the impact of situational factors when explaining others' behavior. For example, if someone cuts you off in traffic, you might think they are a rude person rather than considering they might be rushing to an emergency."
+    },
+
+    {
+        "front": "Actor-observer effect",
+        "back": "The tendency to attribute our own behavior to situational factors while attributing others' behavior to dispositional factors. For example, if you fail a test, you might blame the difficulty of the test, but if a classmate fails, you might think they didn't study enough."
+    },
+    {
+        "front": "Self-serving bias",
+        "back": "The tendency to attribute our successes to internal factors and our failures to external factors. For example, if you do well on a test, you might think it's because you're smart, but if you do poorly, you might blame the teacher for not teaching well."
+    },
+    {
+        "front": "Just-world hypothesis",
+        "back": "The belief that people get what they deserve and deserve what they get. For example, if someone is a victim of a crime, you might think they must have done something to deserve it."
+    },
+    {
+        "front": "Attitude",
+        "back": "A learned tendency to evaluate things in a certain way, which can include evaluations of people, issues, objects, or events. For example, you might have a positive attitude towards exercise because you believe it is good for your health."
+    },
+    {
+        "front": "Mere exposure effect",
+        "back": "The phenomenon where repeated exposure to a stimulus increases our liking for it. For example, you might start to like a song more after hearing it multiple times."
+    },
+    {
+        "front": "Elaboration likelihood model",
+        "back": "A theory that explains how people are persuaded through two routes: the central route (which involves careful consideration of the message) and the peripheral route (which involves superficial cues). For example, if you are persuaded by a celebrity endorsement rather than the actual content of the message, you are using the peripheral route."
+    },
+    {
+        "front": "Central route",
+        "back": "A method of persuasion that involves careful consideration of the message and its content. For example, if you are persuaded by a well-reasoned argument about the benefits of exercise, you are using the central route."
+    },
+    {
+        "front": "Peripheral route",
+        "back": "A method of persuasion that involves superficial cues, such as the attractiveness of the speaker or emotional appeals. For example, if you are persuaded by a celebrity endorsement rather than the actual content of the message, you are using the peripheral route."
+    },
+    {
+        "front": "Cognitive dissonance theory", 
+        "back": "The theory that we experience discomfort when our beliefs and behaviors are inconsistent, leading us to change our beliefs or behaviors to reduce the discomfort. For example, if you smoke but believe smoking is harmful, you might quit smoking to resolve the dissonance."
+    },
+    {
+        "front": "Foot-in-the-door phenomenon",
+        "back": "The tendency for people to agree to a small request first, which makes them more likely to agree to a larger request later. For example, if you ask someone to sign a petition and they agree, they may be more likely to donate money to the cause later."
+    },
+    {
+        "front": "Door-in-the-face phenomenon",
+        "back": "The tendency for people to agree to a smaller request after rejecting a larger one. For example, if you ask someone for a large donation and they refuse, they may be more likely to agree to a smaller donation request."
+    },
+    {
+        "front": "Social reprocity norm",
+        "back": "The expectation that people will respond to each other in kind, such as returning a favor. For example, if someone helps you with a task, you may feel obligated to help them in return. Also known as the norms of reciprocity."
+    },
+    {
+        "front": "Social norms",
+        "back": "The unwritten rules and expectations for behavior in a group or society. For example, in many cultures, it is considered polite to greet someone when you see them."
+    },
+    {
+        "front": "Social responsility norm",
+        "back": "The expectation that people will help those who are dependent on them. For example, if you see someone in need, you may feel a moral obligation to help them."
+    },
+    {
+        "front": "Social traps",
+        "back": "Situations in which individuals or groups act in their own self-interest, leading to negative consequences for the group as a whole. For example, if everyone in a community uses too much water, it can lead to a water shortage."
+    },
+    {
+        "front": "Sterotypes",
+        "back": "Generalized beliefs or expectations about a group of people. For example, if you believe that all teenagers are irresponsible, you are using a stereotype."
+    },
+    {
+        "front": "Prejudice",
+        "back": "An unjustified or incorrect attitude towards a group of people, often based on stereotypes. For example, if you believe that all members of a certain are lazy, you are exhibiting prejudice."
+    },
+    {
+        "front": "Implicit attitude",
+        "back": "An attitude that is not consciously held and may influence behavior without awareness. For example, you might have an implicit bias against a certain group of people without realizing it."
+    },
+    {
+        "front": "Ethnocentrism",
+        "back": "The belief that one's own culture is superior to others. For example, if you believe that your culture's customs are the best and judge other cultures based on that standard, you are exhibiting ethnocentrism."
+    },
+    {
+        "front": "Multiculuralism",
+        "back": "The quality or condition of a society in which different ethnic and cultural groups have equal status and access to power but each maintains its own identity, characteristics, and mores while also participating in the larger society. For example, a country that celebrates and respects multiple cultures and allows them to coexist peacefully is practicing multiculturalism."
+    },
+    {
+        "front": "Individualistic cultures",
+        "back": "Western countries are examples of individualistic cultures, which prioritize individual goals and independence over group goals and interdependence. For example, in an individualistic culture, people may be more likely to prioritize their own needs and desires over those of the group."
+    },
+    {
+        "front": "Collectivist cultures",
+        "back": "Asian countries are examples of collectivist cultures, which prioritize group goals and interdependence over individual goals and independence. For example, in a collectivist culture, people may be more likely to prioritize the needs of the group over their own personal desires."
+    },
+    {
+        "front": "Discrimination",
+        "back": "Involves an action that treats people unfairly based on their group membership. For example, if a hiring manager refuses to hire someone because of their race."
+    },
+    {
+        "front": "Out-group homogenity bias",
+        "back": "A phenomenon where people tend to see members of their own group as more diverse than members of other groups. For example, if you belong to a sports team, you might see your teammates as individuals but view members of rival teams as all the same."
+    },
+    {
+        "front": "In-group bias",
+        "back": "A preference for members of one's own group over those of other groups. For example, if you favor your friends over strangers, you are exhibiting in-group bias."
+    },
+    {
+        "front": "Superordinate goal",
+        "back": "A theory that states that cooperation towards a common goal can reduce intergroup conflict. For example, if two rival groups work together to achieve a shared goal, they may develop a more positive relationship."
+    },
+    {
+        "front": "Social facilitation",
+        "back": "A phenomenon where the presence of others enhances performance on simple or well-learned tasks. For example, if you perform better on a test when others are watching, you are experiencing social facilitation."
+    },
+    {
+        "front": "Upward social comparison",
+        "back": "When individuals compare themselves to others who are better off or more successful, which can lead to feelings of inadequacy or motivation to improve. For example, if you see a friend who is doing well in school, you might feel motivated to study harder."
+    },
+    {
+        "front": "Downward social comparison",
+        "back": "When individuals compare themselves to others who are worse off, which can lead to feelings of superiority or relief. For example, if you see someone struggling in school, you might feel better about your own performance."
+    },
+    {
+        "front": "Relative deprivation theory",
+        "back": "A theory that explains that people tend to feel less satsified ith their lives when they compare themselves to others who are better off (engage in a lot of upward social comparison). For example, if you see a friend who is more successful than you, you might feel dissatisfied with your own life."
+    },
+    {
+        "front": "Conformity",
+        "back": "The tendency to adjust one's behavior or beliefs to match those of others. For example, if you change your opinion on a topic because your friends all agree on it, you are conforming."
+    },
+    {
+        "front": "Normative social influence",
+        "back": "The influence of others that leads us to conform in order to be accepted or liked. For example, if you wear a certain style of clothing because your friends do, you are influenced by normative social influence."
+    },
+    {
+        "front": "Informational social influence",
+        "back": "The influence of others that leads us to conform because we believe they have accurate information. For example, if you change your opinion on a topic because you trust your friend's expertise, you are influenced by informational social influence."
+    },
+    {
+        "front": "Obedience studies",
+        "back": "Experiments that examine the extent to which individuals will follow orders from an authority figure, even if it goes against their personal beliefs. For example, Milgram's obedience study demonstrated that people are willing to administer electric shocks to others when instructed by an authority figure."
+    },
+    {
+        "front": "Bystander effect",
+        "back": "The phenomenon where individuals are less likely to help a victim when other people are present. For example, if someone collapses in a crowded area, people may assume someone else will help, leading to inaction."
+    },
+    {
+        "front": "Social loafing",
+        "back": "The tendency for individuals to exert less effort when working in a group compared to when working alone. For example, if you are part of a group project, you might contribute less than you would if you were working on the project alone."
+    },
+    {
+        "front": "Group polarization",
+        "back": "The tendency for group discussion to enhance the group's prevailing attitudes or opinions. For example, if a group of people with similar views discusses a topic, their opinions may become more extreme."
+    },
+    {
+        "front": "Groupthink",
+        "back": "A phenomenon where the desire for harmony or conformity in a group leads to irrational or dysfunctional decision-making. For example, if a group of friends decides to go to a restaurant that everyone dislikes just to avoid conflict, they are experiencing groupthink."
+    },
+    {
+        "front": "Deindividuation",
+        "back": "A psychological state characterized by a loss of self-awareness and a sense of anonymity in groups, which can lead to impulsive or deviant behavior. For example, if you engage in vandalism during a riot because you feel anonymous in the crowd, you are experiencing deindividuation."
+    }
+]
