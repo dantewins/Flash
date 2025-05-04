@@ -80,7 +80,7 @@ const slide: Variants = {
   exit: { opacity: 0, transition: { duration: 0 } },
 };
 
-export default function FlashcardPage() {
+export default function Page() {
   const folderNames = Object.keys(FOLDERS).sort(sortNumeric);
   const firstFolder = folderNames[0];
   const filesInFirst = Object.keys(FOLDERS[firstFolder]).sort(sortNumeric);

@@ -99,24 +99,29 @@
         "back": "An attitude of acceptance and support toward a person regardless of their behavior or feelings. It is a key concept in Carl Rogers' humanistic approach to therapy."
     },
     {
-        "front": "Big Five",
+        "front": "Big Five (OCEAN)",
         "back": "A model of personality that identifies five broad dimensions of personality traits: openness to experience, conscientiousness, extraversion, agreeableness, and neuroticism (emotional stability)."
+    },
+    {
+        "front": "Openness",
+        "back": "A personality trait characterized by a willingness to try new things, be imaginative, and embrace new ideas. Individuals high in openness are often curious and open-minded."
+    },
+    {
+        "front": "Conscientiousness",
+        "back": "A personality trait characterized by being organized, responsible, and dependable. Individuals high in conscientiousness are often disciplined and goal-oriented."
     },
     {
         "front": "Agreeableness",
         "back": "A personality trait characterized by being compassionate, cooperative, and friendly. Individuals high in agreeableness are often empathetic and willing to help others."
     },
+    
     {
-        "front": "Openness to experience",
-        "back": "A personality trait characterized by a willingness to try new things, be imaginative, and embrace new ideas. Individuals high in openness are often curious and open-minded."
-    },
-    {
-        "front": "Extraversion/Extroversion",
+        "front": "Extraversion",
         "back": "A personality trait characterized by being outgoing, sociable, and energetic. Extraverts tend to seek stimulation in the company of others, while introverts prefer solitary activities."
     },
     {
-        "front": "Conscientiousness",
-        "back": "A personality trait characterized by being organized, responsible, and dependable. Individuals high in conscientiousness are often disciplined and goal-oriented."
+        "front": "Neuroticism",
+        "back": "A personality trait characterized by emotional instability, anxiety, and moodiness. Individuals high in neuroticism may experience frequent mood swings and heightened emotional responses."
     },
     {
         "front": "Emotional stability",
