@@ -14,7 +14,7 @@ export default function Page({ params }: Props) {
 
     return (
         <main className="flex flex-col h-screen">
-            <header className="flex items-center px-4 py-2 border-b bg-background/60 backdrop-blur">
+            <header className="flex items-center px-4 py-2 border-b bg-background/60 bg-gray-100 backdrop-blur">
                 <Button asChild variant="ghost" size="icon" className="mr-2">
                     <a href="/study-guides/ap-psych">
                         <ArrowLeft className="h-5 w-5" />

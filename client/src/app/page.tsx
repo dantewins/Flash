@@ -105,13 +105,12 @@ export default function Page() {
   const [corner, setCorner] = useState<"tl" | "tr" | "bl" | "br">("br");
   const [dragging, setDragging] = useState(false);
 
-  const M = 40;
-  const pos = {
-    tl: { top: M, left: M },
-    tr: { top: M, right: M },
-    bl: { bottom: M, left: M },
-    br: { bottom: M, right: M },
-  }[corner] as React.CSSProperties;
+  const posClasses: Record<typeof corner, string> = {
+    tl: "top-3 left-3 sm:top-6 sm:left-6",
+    tr: "top-3 right-3 sm:top-6 sm:right-6",
+    bl: "bottom-3 left-3 sm:bottom-6 sm:left-6",
+    br: "bottom-3 right-3 sm:bottom-6 sm:right-6",
+  };
 
   const lastRef = useRef(0);
   const nowOk = () => {
@@ -220,25 +219,40 @@ export default function Page() {
                 <Search className="h-7 w-7" strokeWidth="3px" />
               </Button>
             </DialogTrigger>
-            <DialogContent>
-              <DialogHeader>
+            <DialogContent className="sm:max-w-xl max-h-[80vh] flex flex-col">
+              <DialogHeader className="flex flex-col space-y-0.5 text-left">
                 <DialogTitle>Definition</DialogTitle>
-                <DialogDescription>Definition for <strong>{card.front}</strong></DialogDescription>
+                <DialogDescription>
+                  Definition for <strong>{card.front}</strong>
+                </DialogDescription>
               </DialogHeader>
-              {loading && <p>Loading...</p>}
-              {!loading && entries.length === 0 && <p>No definition found for “{card.front}.”</p>}
-              {!loading && entries.length > 0 && (
-                <div>
-                  {entries.map((e, i) => (
+              <div className="flex-1 overflow-y-auto pr-2">
+                {loading && <p>Loading...</p>}
+
+                {!loading && entries.length === 0 && (
+                  <p>No definition found for “{card.front}.”</p>
+                )}
+                {!loading &&
+                  entries.map((e, i) => (
                     <div key={i} className="mb-4">
-                      <div className="text-lg font-semibold" dangerouslySetInnerHTML={{ __html: e.term }} />
-                      <div className="prose" dangerouslySetInnerHTML={{ __html: e.definition }} />
+                      <div
+                        className="text-lg font-semibold"
+                        dangerouslySetInnerHTML={{ __html: e.term }}
+                      />
+                      <div
+                        className="prose"
+                        dangerouslySetInnerHTML={{ __html: e.definition }}
+                      />
                     </div>
                   ))}
-                </div>
-              )}
-              <DialogFooter>
-                <Button onClick={() => setSearchOpen(false)} className="hover:cursor-pointer">Close</Button>
+              </div>
+              <DialogFooter className="mt-4">
+                <Button
+                  onClick={() => setSearchOpen(false)}
+                  className="hover:cursor-pointer"
+                >
+                  Close
+                </Button>
               </DialogFooter>
             </DialogContent>
           </Dialog>
@@ -268,16 +282,20 @@ export default function Page() {
                 transition={{ duration: 0.25 }}
                 style={{ transformStyle: "preserve-3d" }}
               >
-                <Card className="absolute inset-0 flex items-center justify-center [backface-visibility:hidden]">
-                  <CardContent className="h-full w-full flex items-center justify-center text-2xl text-center px-6 py-8 overflow-y-auto">
+                <Card className="absolute inset-0 grid place-items-center overflow-y-auto [backface-visibility:hidden]">
+                  <CardContent
+                    className="w-full px-6 py-8 text-2xl text-center whitespace-pre-wrap"
+                  >
                     {card.front}
                   </CardContent>
                 </Card>
                 <Card
-                  className="absolute inset-0 flex items-center justify-center [backface-visibility:hidden]"
+                  className="absolute inset-0 grid place-items-center overflow-y-auto [backface-visibility:hidden] py-4"
                   style={{ transform: "rotateX(180deg)" }}
                 >
-                  <CardContent className="h-full w-full flex items-center justify-center text-xl text-center px-10 py-8 overflow-y-auto">
+                  <CardContent
+                    className="w-full px-10 text-lg sm:text-xl text-center whitespace-pre-wrap"
+                  >
                     {card.back}
                   </CardContent>
                 </Card>
@@ -310,8 +328,7 @@ export default function Page() {
               x < w / 2 ? (y < h / 2 ? "tl" : "bl") : y < h / 2 ? "tr" : "br";
             setCorner(newCorner);
           }}
-          style={pos}
-          className="fixed z-50"
+          className={`fixed z-50 ${posClasses[corner]}`}
         >
           <Tooltip>
             <TooltipTrigger asChild>

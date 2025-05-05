@@ -15,11 +15,8 @@ export default async function Page() {
   return (
     <main className="relative min-h-screen flex items-center justify-center bg-gray-100 p-8 sm:p-6">
       <div className="max-w-4xl w-full space-y-8">
-
-        {/* ── header ─────────────────────────────────────────────── */}
         <div className="w-full flex flex-col gap-4 flex-row items-center justify-between">
           <h1 className="text-xl sm:text-2xl md:text-3xl font-bold leading-tight">Study guides</h1>
-
           <Button variant="outline" className="flex gap-2 items-center self-start self-auto shrink-0 hover:scale-105" asChild>
             <Link href="/">
               <BookOpen className="w-5 h-5" />
@@ -27,23 +24,19 @@ export default async function Page() {
             </Link>
           </Button>
         </div>
-
-        {/* ── grid of shadcn cards ──────────────────────────────── */}
         <div className="grid sm:grid-cols-2 gap-5">
           {pdfs.map((file, i) => {
             const slug   = encodeURIComponent(file.replace(/\.pdf$/, ""));
             const pretty = slug.replace(/[-_]/g, " ");
-
             return (
               <Link key={file} href={`/study-guides/ap-psych/${slug}`} className="focus:outline-none group">
-                <Card className="h-full cursor-pointer transition-shadow shadow-sm hover:shadow-md hover:scale-105 transition-transform">
+                <Card className="h-full cursor-pointer hover:scale-103 transition-transform">
                   <CardHeader className="flex flex-row items-start gap-4">
-                    <div className="p-3 rounded-full bg-indigo-100 text-indigo-600">
+                    <div className="p-3 rounded-full bg-gray-200">
                       <FileText className="h-6 w-6" />
                     </div>
-
                     <div className="flex-1">
-                      <CardTitle className="text-lg leading-snug capitalize group-hover:text-indigo-700">
+                      <CardTitle className="text-lg leading-snug capitalize">
                         {pretty}
                       </CardTitle>
                       <CardDescription className="pt-1">PDF • click to open</CardDescription>
