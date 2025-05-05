@@ -330,7 +330,7 @@ export default function Page() {
                 </Button>
               </Link>
             </TooltipTrigger>
-            <TooltipContent side="right">Open Library</TooltipContent>
+            <TooltipContent side="left">Open Library</TooltipContent>
           </Tooltip>
         </motion.div>
       </TooltipProvider>
