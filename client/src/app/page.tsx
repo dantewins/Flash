@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback } from "react";
+import Link from "next/link";
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -22,7 +23,13 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Search, ArrowLeft, ArrowRight, Shuffle } from "lucide-react";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { Search, ArrowLeft, ArrowRight, Shuffle, BookOpen } from "lucide-react";
 
 interface Flashcard {
   front: string;
@@ -94,6 +101,17 @@ export default function Page() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [entries, setEntries] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
+  const [spinning, setSpinning] = useState(false);
+  const [corner, setCorner] = useState<"tl" | "tr" | "bl" | "br">("br");
+  const [dragging, setDragging] = useState(false);
+
+  const M = 40;
+  const pos = {
+    tl: { top: M, left: M },
+    tr: { top: M, right: M },
+    bl: { bottom: M, left: M },
+    br: { bottom: M, right: M },
+  }[corner] as React.CSSProperties;
 
   const lastRef = useRef(0);
   const nowOk = () => {
@@ -122,10 +140,15 @@ export default function Page() {
       const j = Math.floor(Math.random() * (i + 1));
       [a[i], a[j]] = [a[j], a[i]];
     }
+    setSpinning(true);
     setCards(a);
     setIdx(0);
     setDir(0);
     setFlip(false);
+
+    setTimeout(() => {
+      setSpinning(false);
+    }, 300);
   };
 
   useEffect(() => {
@@ -189,12 +212,11 @@ export default function Page() {
           </SelectContent>
         </Select>
       </div>
-
       <div className="w-[90vw] sm:w-full max-w-[48rem] flex flex-col">
         <div className="flex items-center justify-between mb-4 h-12">
           <Dialog open={searchOpen} onOpenChange={setSearchOpen}>
             <DialogTrigger asChild>
-              <Button variant="outline" size="lg" className="cursor-pointer">
+              <Button variant="outline" size="lg" className="cursor-pointer hover:scale-105">
                 <Search className="h-7 w-7" strokeWidth="3px" />
               </Button>
             </DialogTrigger>
@@ -223,11 +245,10 @@ export default function Page() {
           <div className="flex-1 flex items-center justify-center">
             <span className="text-2xl font-bold leading-none">{idx + 1} / {cards.length}</span>
           </div>
-          <Button variant="outline" size="lg" onClick={shuffle} className="cursor-pointer">
-            <Shuffle className="h-7 w-7" strokeWidth="3px" />
+          <Button variant="outline" size="lg" onClick={shuffle} className="cursor-pointer hover:scale-105">
+            <Shuffle className={`h-7 w-7 transition-transform ${spinning ? "animate-[spin_0.3s_ease-in-out]" : ""}`} strokeWidth="3px" />
           </Button>
         </div>
-
         <div className="relative w-full aspect-video" style={{ perspective: 1200 }}>
           <AnimatePresence initial={false} custom={dir}>
             <motion.div
@@ -264,16 +285,55 @@ export default function Page() {
             </motion.div>
           </AnimatePresence>
         </div>
-
         <div className="flex items-center justify-between mt-8">
-          <Button size="lg" className="cursor-pointer w-15" disabled={idx === 0} onClick={() => paginate(-1)}>
+          <Button size="lg" className="cursor-pointer w-15 hover:scale-105" disabled={idx === 0} onClick={() => paginate(-1)}>
             <ArrowLeft className="h-7 w-7" strokeWidth="3px" />
           </Button>
-          <Button size="lg" className="cursor-pointer w-15" disabled={idx === cards.length - 1} onClick={() => paginate(1)}>
+          <Button size="lg" className="cursor-pointer w-15 hover:scale-105" disabled={idx === cards.length - 1} onClick={() => paginate(1)}>
             <ArrowRight className="h-7 w-7" strokeWidth="3px" />
           </Button>
         </div>
       </div>
+      <TooltipProvider delayDuration={150}>
+        <motion.div
+          key={corner}
+          drag
+          dragMomentum={false}
+          animate={{ x: 0, y: 0 }}
+          transition={{ duration: 0 }}
+          onDragStart={() => setDragging(true)}
+          onDragEnd={(_, info) => {
+            setDragging(false);
+            const { innerWidth: w, innerHeight: h } = window;
+            const { x, y } = info.point;
+            const newCorner =
+              x < w / 2 ? (y < h / 2 ? "tl" : "bl") : y < h / 2 ? "tr" : "br";
+            setCorner(newCorner);
+          }}
+          style={pos}
+          className="fixed z-50"
+        >
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Link
+                href="/study-guides/ap-psych"
+                draggable={false}
+                onClick={(e) => {
+                  if (dragging) e.preventDefault();
+                }}
+              >
+                <Button
+                  variant="default"
+                  className="w-17 h-17 rounded-full hover:scale-102 cursor-pointer transition-transform"
+                >
+                  <BookOpen className="!w-6 !h-6" />
+                </Button>
+              </Link>
+            </TooltipTrigger>
+            <TooltipContent side="right">Open Library</TooltipContent>
+          </Tooltip>
+        </motion.div>
+      </TooltipProvider>
     </div>
   );
 }

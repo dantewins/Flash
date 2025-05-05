@@ -1,55 +1,60 @@
-import { promises as fs } from "fs"
-import path from "path"
-import Link from "next/link"
+import { promises as fs } from "fs";
+import path from "path";
+import Link from "next/link";
 
-import { Button } from "@/components/ui/button"
-import { FileText, BookOpen } from "lucide-react"
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { FileText, BookOpen } from "lucide-react";
 
-export const revalidate = false
+export const revalidate = false;
 
 export default async function Page() {
-  const dir = path.join(process.cwd(), "public", "study-guides-ap-psych")
-  const pdfs = (await fs.readdir(dir)).filter((f) => f.endsWith(".pdf"))
+  const dir  = path.join(process.cwd(), "public", "study-guides-ap-psych");
+  const pdfs = (await fs.readdir(dir)).filter((f) => f.endsWith(".pdf"));
 
   return (
-    <main className="relative min-h-screen flex flex-col items-center justify-center bg-gray-50 p-8">
-      <div className="w-full max-w-3xl">
-        {/* Header with title and flashcards button */}
-        <div className="flex items-center justify-between mb-8">
-          <div className="flex items-center gap-3">
-            <h1 className="text-xl font-bold">AP Psychology Study Guides</h1>
-          </div>
+    <main className="relative min-h-screen flex items-center justify-center bg-gray-100 p-8 sm:p-6">
+      <div className="max-w-4xl w-full space-y-8">
 
-          <Button variant="default" size="sm" className="bg-gray-900 hover:bg-gray-800 rounded-md" asChild>
-            <Link href="/" className="flex items-center gap-2">
-              <BookOpen className="h-4 w-4" />
+        {/* ── header ─────────────────────────────────────────────── */}
+        <div className="w-full flex flex-col gap-4 flex-row items-center justify-between">
+          <h1 className="text-xl sm:text-2xl md:text-3xl font-bold leading-tight">Study guides</h1>
+
+          <Button variant="outline" className="flex gap-2 items-center self-start self-auto shrink-0 hover:scale-105" asChild>
+            <Link href="/">
+              <BookOpen className="w-5 h-5" />
               Flashcards
             </Link>
           </Button>
         </div>
 
-        {/* List of PDF items as horizontal bars */}
-        <div className="grid grid-cols-1 gap-4">
-          {pdfs.map((file) => {
-            const slug = encodeURIComponent(file.replace(/\.pdf$/, ""))
-            const pretty = slug.replace(/[-_]/g, " ")
+        {/* ── grid of shadcn cards ──────────────────────────────── */}
+        <div className="grid sm:grid-cols-2 gap-5">
+          {pdfs.map((file, i) => {
+            const slug   = encodeURIComponent(file.replace(/\.pdf$/, ""));
+            const pretty = slug.replace(/[-_]/g, " ");
 
             return (
-              <Link key={file} href={`/study-guides/ap-psych/${slug}`} className="block">
-                <div className="bg-white border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition-colors">
-                  <div className="flex items-center gap-3">
-                    <FileText className="h-5 w-5 text-gray-400 flex-shrink-0" />
-                    <div className="flex-1">
-                      <h2 className="font-medium text-base">{pretty}</h2>
-                      <p className="text-xs text-gray-500 mt-1">PDF • Click to view</p>
+              <Link key={file} href={`/study-guides/ap-psych/${slug}`} className="focus:outline-none group">
+                <Card className="h-full cursor-pointer transition-shadow shadow-sm hover:shadow-md hover:scale-105 transition-transform">
+                  <CardHeader className="flex flex-row items-start gap-4">
+                    <div className="p-3 rounded-full bg-indigo-100 text-indigo-600">
+                      <FileText className="h-6 w-6" />
                     </div>
-                  </div>
-                </div>
+
+                    <div className="flex-1">
+                      <CardTitle className="text-lg leading-snug capitalize group-hover:text-indigo-700">
+                        {pretty}
+                      </CardTitle>
+                      <CardDescription className="pt-1">PDF • click to open</CardDescription>
+                    </div>
+                  </CardHeader>
+                </Card>
               </Link>
-            )
+            );
           })}
         </div>
       </div>
     </main>
-  )
+  );
 }
