@@ -1,0 +1,105 @@
+[
+    {
+        "set": "Health Psychology"
+    },
+    {
+        "front": "Eustress",
+        "back": "Positive stress that motivates us to do something productive. For example, the stress of studying for a test can motivate you to study harder and do better on the test."
+    },
+    {
+        "front": "Distress",
+        "back": "Negative stress that can cause anxiety or concern. For example, the stress of a breakup can cause you to feel sad and anxious."
+    },
+    {
+        "front": "Stressors",
+        "back": "Events or situations that cause stress. For example, a stressful event could be a job interview, a breakup, or a death in the family."
+    },
+    {
+        "front": "General adapation syndrome (GAS)",
+        "back": "A three-stage model of the body's response to stress, consisting of alarm reaction, resistance, and exhaustion. For example, when you are stressed about a test, your body goes through these three stages: first, you feel a rush of adrenaline (alarm reaction), then you focus on studying (resistance), and finally, if the stress continues for too long, you may feel exhausted (exhaustion)."
+    },
+    {
+        "front": "Alarm reaction",
+        "back": "The first stage of the general adaptation syndrome, where the body reacts to a stressor with a fight-or-flight response. For example, when you see a bear in the woods, your body goes into alarm reaction mode, preparing you to either fight or run away."
+    },
+    {
+        "front": "Resistance",
+        "back": "The second stage of the general adaptation syndrome, where the body tries to adapt to the stressor and return to a state of balance. For example, after the initial shock of seeing a bear, your body may calm down and allow you to think about how to escape."
+    },
+    {
+        "front": "Exhaustion",
+        "back": "The third stage of the general adaptation syndrome, where the body's resources are depleted and it can no longer cope with the stressor. For example, if you are constantly stressed about schoolwork, you may eventually feel exhausted and unable to focus."
+    },
+    {
+        "front": "Hypertension",
+        "back": "High blood pressure that can be caused by stress. For example, if you are constantly stressed about work, you may develop hypertension, which can lead to serious health problems."
+    },
+    {
+        "front": "Immune suppression",
+        "back": "A decrease in the body's ability to fight off illness, often caused by stress. For example, if you are under a lot of stress, you may get sick more often because your immune system is weakened."
+    },
+    {
+        "front": "Tend-and-befriend theory",
+        "back": "The theory that under stress, people (especially women) are more likely to provide support to others (tend) and seek social support (befriend), rather than the fight-or-flight response. For example, during a crisis, a mother may protect her children and reach out to others for help and comfort."
+    },
+    {
+        "front": "Emotion-focused coping",
+        "back": " A coping strategy that involves managing emotions rather than the stressor itself. For example, if you are stressed about a breakup, you may talk to friends or family to help you process your feelings."
+    },
+    {
+        "front": "Positive psychology",
+        "back": "A branch of psychology that focuses on the study of positive emotions, strengths, and well-being. For example, positive psychology emphasizes the importance of gratitude, resilience, and happiness in leading a fulfilling life."
+    },
+    {
+        "front": "Happiness",
+        "back": "A state of well-being characterized by positive emotions and life satisfaction. For example, people who are happy often report feeling content, fulfilled, and optimistic about the future."
+    },
+    {
+        "front": "Subjective well-being",
+        "back": "An individual's self-reported assessment of their own happiness and life satisfaction. For example, if you ask someone how happy they are on a scale of 1 to 10, their answer would reflect their subjective well-being."
+    },
+    {
+        "front": "Virtues",
+        "back": "Positive character traits that contribute to a person's overall well-being. For example, virtues such as kindness, honesty, and courage are often associated with a fulfilling life."
+    },
+    {
+        "front": "Wisdom",
+        "back": "The ability to make sound judgments and decisions based on knowledge and experience. For example, a wise person may be able to offer valuable advice based on their life experiences."
+    },
+    {
+        "front": "Courage",
+        "back": "The ability to confront fear, pain, or adversity. For example, a person who speaks out against injustice despite facing backlash is demonstrating courage."
+    },
+    {
+        "front": "Humanity",
+        "back": "The quality of being compassionate and caring towards others. For example, showing empathy and kindness to those in need is an expression of humanity."
+    },
+    {
+        "front": "Justice",
+        "back": "The principle of fairness and equality in treatment and opportunities. For example, advocating for equal rights for all individuals is an example of justice."
+    },
+    {
+        "front": "Temperance",
+        "back": "The practice of self-control and moderation in behavior. For example, someone who practices temperance may avoid overindulgence in food or alcohol."
+    },
+    {
+        "front": "Transcendence",
+        "back": "The ability to rise above and connect with something greater than oneself. For example, experiencing a sense of awe in nature or spirituality can be considered transcendence."
+    },
+    {
+        "front": "Well-being",
+        "back": "A holistic state of health that encompasses physical, mental, and social aspects. For example, a person with well-being may feel physically healthy, emotionally balanced, and socially connected."
+    },
+    {
+        "front": "Gratitude",
+        "back": "A feeling of thankfulness and appreciation for the positive aspects of life. For example, keeping a gratitude journal can help individuals focus on the good things in their lives."
+    },
+    {
+        "front": "Resilience",
+        "back": "The ability to bounce back from adversity and cope with challenges. For example, a resilient person may recover quickly from a setback, such as losing a job or experiencing a breakup."
+    },
+    {
+        "front": "Post-traumatic growth",
+        "back": "Positive psychological changes that occur as a result of struggling with challenging life circumstances. For example, someone who has experienced a traumatic event may find new meaning in life and develop a greater appreciation for relationships."
+    }
+]

@@ -115,6 +115,26 @@
         "back": "A conflict that occurs when a person is faced with a single option that has both positive and negative aspects. For example, being offered a promotion that requires relocation."
     },
     {
+        "front": "James-Lange theory",
+        "back": "The theory that our experience of emotion is our awareness of our physiological responses to emotion-arousing stimuli. For example, seeing a bear causes your heart to race, and then you feel fear as a result of noticing your heartbeat."
+    },
+    {
+        "front": "Cannon-Bard theory",
+        "back": "The theory that an emotion-arousing stimulus simultaneously triggers physiological responses and the subjective experience of emotion. For example, seeing a snake may cause both a racing heart and the feeling of fear at the same time."
+    },
+    {
+        "front": "Two-factor theory",
+        "back": "Also known as the Schachter-Singer theory, it states that to experience emotion one must be physically aroused and cognitively label the arousal. For example, if your heart is racing after seeing a bear, you interpret it as fear because you identify the bear as dangerous."
+    },
+    {
+        "front": "Lazarus' Cognitive Appraisal theory",
+        "back": "The theory that emotion depends on how the situation is appraised (consciously interpreted), even without awareness. For example, you see a dark figure and think it’s a threat, leading you to feel fear even before fully realizing it."
+    },
+    {
+        "front": "Zajonc-LeDoux theory",
+        "back": "The theory that some emotional responses occur instantly, without conscious appraisal. For example, you automatically feel startled by a loud noise before identifying its source."
+    },
+    {
         "front": "Facial feedback hypothesis",
         "back": "The theory that facial expressions can influence emotional experiences. For example, smiling can make a person feel happier."
     },
